@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color : #9547EF;
+}
+
+header{
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+header h3{
+    padding-left: 2rem;
+}
+
+nav{
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    padding : 0 1rem 0 0;
+    list-style-type: none;
+}
+
+nav ul li a{
+    color : white;
+    text-decoration: none;
+}
+
+section{
+    padding: 0 2rem;
+    min-height: 34rem;
+}
+
+.links-container{
+    height: max-content;
+    margin: 10rem 0;
+}
+
+.primary-link {
+    border : 2px solid var(--primary-color);
+    padding: .5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    color:var(--primary-color);
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.primary-link:hover{
+    transition: .5s;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.secondary-link {
+    padding: .65rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.info-cards{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one-card{
+    /* border : 1px solid black; */
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0px 2px 4px 0px #555555;
+    margin: 0 auto 2rem auto;
+    width : 8rem;
+    transition: .2s ease-in-out;
+}
+
+.one-card:hover{
+    
+    box-shadow: 0px 4px 8px 0px #555555;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color:white;
+    text-align: center;
+}
+
+footer h3{
+    padding-top: 1rem;
+}
+
+.Contact-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Contact-info a{
+    text-decoration: none;
+    color : white;
+    padding-bottom: 1rem;
+}
